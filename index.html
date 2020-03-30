@@ -6,35 +6,42 @@
         <meta charset="utf-8">
         
         <title>Kevin | Front End Web Developer</title>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/responsive.css">
     </head>
+    
+    <body>
         <!-- Start of Header -->
         <header>
+            <!-- CLICKABLE LINK THAT TAKES YOU TO THE HOME PAGE -->
+            <a href="index.html" id="logo">
             <h1>Kevin</h1>
             <h2>Front End Web Developer</h2>
-            
+            </a>
             <!-- Nav List WITH LIST ITEMS (ul) (li)-->
             
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Portfolio</a>
+                        <a href="index.html" class="selected">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="about.html">About</a>
                         
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="contact.html">Contact</a>
                     </li>
-                
-                </ul>
+                    </ul>
+            </nav>
         </header>
             <!-- END OF hEADER -->
             
-            <!START OF gALLERY -->
-            <div>
+            <!START OF GALLERY -->
+            <div id="wrapper">
                 <section>
-                    <ul>
+                    <ul id="gallery">
                         <li>
                             <img src="img/numbers-01.jpg" alt="Number 1">
                             <p>1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -68,14 +75,16 @@
             </div>
             <!--END OF GALLERY-->
             
+        
+            <!-- START OF FOOTER-->
             <footer>
-                <a href="http:www.twitter.com" target="_blank"><img src="img/twitter-wrap.png"></a>
-                <a href=http://wwwfacebook.com target="_blank"><img src="img/facebook-wrap.png"</a>
+                <a href="http:www.twitter.com" target="_blank"><img src="img/twitter-wrap.png" class="social-icon"></a>
+                <a href=http://wwwfacebook.com target="_blank"><img src="img/facebook-wrap.png" class="social-icon"></a>
                 <p>&copy; 2020 Kevin</p>
             </footer>
-            <!--END OF FOOTER -->
+            <!-- END OF FOOTER -->
     
-    <body>
+
     </body>
     
     
