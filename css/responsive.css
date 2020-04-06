@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) {}
 
         /****************
         TWO COLUMN LAYOUT
@@ -37,7 +37,7 @@ PAGE:ABOUT
     margin0 5% 88px 0;
     
 }
-}
+
 
 @media screen and (min-width: 660px) {
     
@@ -67,8 +67,11 @@ PAGE:ABOUT
         margin: 40px 0 0;
     }
     header {
-        border-bottom: 5px solid #599a68;
-        margin-bottom: 60px;
+        border-bottom: 5px
+            margin-bottom:
     }
     
 }
+/****************
+PAGE;CONTACT
+****************/
